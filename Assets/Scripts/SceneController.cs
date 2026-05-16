@@ -3,7 +3,7 @@ namespace BensuStudio
     using UnityEngine;
     using UnityEngine.Rendering;
     using UnityEngine.SceneManagement;
-    public class SceneController
+    public class SceneController : MonoBehaviour
     {
 
         [SerializeField] private string sceneName;
